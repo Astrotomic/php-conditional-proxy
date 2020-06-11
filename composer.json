@@ -1,0 +1,34 @@
+{
+    "name": "astrotomic/php-conditional-proxy",
+    "description": "Easily generate Open Graph tags",
+    "keywords": [],
+    "homepage": "https://github.com/Astrotomic/php-conditional-proxy",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tom Witkowski",
+            "email": "gummibeer@astrotomic.info",
+            "homepage": "https://astrotomic.info",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.1"
+    },
+    "require-dev": {
+        "pestphp/pest": "^0.1.5"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "autoload": {
+        "psr-4": {
+            "Astrotomic\\ConditionalProxy\\": "src"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "scripts": {
+        "test": "vendor/bin/pest"
+    }
+}
