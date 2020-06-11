@@ -29,8 +29,7 @@ it('calls method if condition is true', function () {
     $proxied
         ->foo()
         ->when(true)
-        ->bar()
-    ;
+        ->bar();
 
     assertSame('foo', $proxied->foo);
     assertSame('bar', $proxied->bar);
@@ -41,8 +40,7 @@ it('calls method after method if condition is true', function () {
     $proxied
         ->when(true)
         ->bar()
-        ->foo()
-    ;
+        ->foo();
 
     assertSame('foo', $proxied->foo);
     assertSame('bar', $proxied->bar);
@@ -53,8 +51,7 @@ it('skips method if condition is false', function () {
     $proxied
         ->foo()
         ->when(false)
-        ->bar()
-    ;
+        ->bar();
 
     assertSame('foo', $proxied->foo);
     assertNull($proxied->bar);
@@ -65,8 +62,7 @@ it('calls method after skipped if condition is false', function () {
     $proxied
         ->when(false)
         ->bar()
-        ->foo()
-    ;
+        ->foo();
 
     assertSame('foo', $proxied->foo);
     assertNull($proxied->bar);
@@ -77,8 +73,7 @@ it('can use non bool truly condition', function () {
     $proxied
         ->foo()
         ->when('lorem')
-        ->bar()
-    ;
+        ->bar();
 
     assertSame('foo', $proxied->foo);
     assertSame('bar', $proxied->bar);
@@ -89,8 +84,7 @@ it('can use non bool falsy condition', function () {
     $proxied
         ->foo()
         ->when(null)
-        ->bar()
-    ;
+        ->bar();
 
     assertSame('foo', $proxied->foo);
     assertNull($proxied->bar);
@@ -100,8 +94,9 @@ it('calls callback if condition is true', function () {
     $proxied = new Proxied();
     $proxied
         ->foo()
-        ->when(true, function(Proxied $p) { return $p->bar(); })
-    ;
+        ->when(true, function (Proxied $p) {
+            return $p->bar();
+        });
 
     assertSame('foo', $proxied->foo);
     assertSame('bar', $proxied->bar);
@@ -111,8 +106,9 @@ it('skipps callback if condition is false', function () {
     $proxied = new Proxied();
     $proxied
         ->foo()
-        ->when(false, function(Proxied $p) { return $p->bar(); })
-    ;
+        ->when(false, function (Proxied $p) {
+            return $p->bar();
+        });
 
     assertSame('foo', $proxied->foo);
     assertNull($proxied->bar);

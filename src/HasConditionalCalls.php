@@ -23,6 +23,5 @@ trait HasConditionalCalls
         }
 
         return $this;
-
     }
 }
