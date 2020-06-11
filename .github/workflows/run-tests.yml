@@ -15,7 +15,7 @@ jobs:
       matrix:
         php: [7.4, 7.3, 7.2, 7.1]
 
-    name: P${{ matrix.php }} - ${{ matrix.dependency-version }}
+    name: P${{ matrix.php }}
 
     steps:
       - name: Checkout code
