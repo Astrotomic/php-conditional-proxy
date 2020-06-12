@@ -30,6 +30,9 @@ jobs:
             dependencies-php-${{ matrix.php }}-composer-
             dependencies-php-
 
+      - name: Validate Composer configuration
+        run: composer validate --strict
+
       - name: Install dependencies
         run: composer update --prefer-dist --no-interaction --no-suggest
 
