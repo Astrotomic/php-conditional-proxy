@@ -6,7 +6,7 @@
 
 [![GitHub Workflow Status](https://img.shields.io/github/workflow/status/Astrotomic/php-conditional-proxy/run-tests?style=flat-square&logoColor=white&logo=github&label=Tests)](https://github.com/Astrotomic/php-conditional-proxy/actions?query=workflow%3Arun-tests)
 [![StyleCI](https://styleci.io/repos/271375912/shield)](https://styleci.io/repos/271375912)
-[![Total Downloads](https://img.shields.io/packagist/dt/astrotomic/php-conditional-proxy.svg?label=Downloads&style=flat-square)](https://packagist.org/packages/astrotomic/php-conditional-proxy)
+[![Total Downloads](https://img.shields.io/packagist/dt/astrotomic/php-conditional-proxy.svg?label=Downloads&style=flat-square)](https://packagist.org/packages/astrotomic/php-conditional-proxy/stats)
 
 This package provides a trait and class to allow calling methods based on a condition without breaking the method chain. 
 This is useful if you want to call a method only if the variable you insert has a value. 
