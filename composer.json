@@ -1,7 +1,10 @@
 {
     "name": "astrotomic/php-conditional-proxy",
-    "description": "Easily generate Open Graph tags",
-    "keywords": [],
+    "description": "This package provides a trait and class to allow calling methods based on a condition without breaking the method chain.",
+    "keywords": [
+        "contitional-proxy",
+        "proxy"
+    ],
     "homepage": "https://github.com/Astrotomic/php-conditional-proxy",
     "license": "MIT",
     "authors": [
