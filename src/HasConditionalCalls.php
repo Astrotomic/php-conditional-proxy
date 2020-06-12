@@ -14,7 +14,8 @@ trait HasConditionalCalls
      */
     public function when($condition, ?Closure $callback = null)
     {
-        $condition = (bool)$condition;
+        $condition = (bool) $condition;
+
         if ($callback === null) {
             return new ConditionalProxy($this, $condition);
         }
