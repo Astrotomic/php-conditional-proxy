@@ -7,12 +7,12 @@ use Closure;
 trait HasConditionalCalls
 {
     /**
-     * @param $condition
+     * @param bool $condition
      * @param Closure|null $callback
      *
      * @return static|ConditionalProxy
      */
-    public function when($condition, ?Closure $callback = null)
+    public function when(bool $condition, ?Closure $callback = null)
     {
         if ($callback === null) {
             return new ConditionalProxy($this, $condition);
