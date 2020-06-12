@@ -9,9 +9,9 @@ class ConditionalProxy
 
     /**
      * @param object $object
-     * @param $condition
+     * @param bool $condition
      */
-    public function __construct($object, $condition)
+    public function __construct($object, bool $condition)
     {
         $this->object = $object;
         $this->condition = $condition;
