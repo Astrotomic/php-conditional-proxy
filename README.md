@@ -90,9 +90,11 @@ composer test
 
 ## Changelog
 
-Please see [CHANGELOG](CHANGELOG.md) for more information what has changed recently.## Contributing
+Please see [CHANGELOG](CHANGELOG.md) for more information what has changed recently.
+## Contributing
 
-Please see [CONTRIBUTING](https://github.com/Astrotomic/.github/blob/master/CONTRIBUTING.md) for details. You could also be interested in [CODE OF CONDUCT](https://github.com/Astrotomic/.github/blob/master/CODE_OF_CONDUCT.md).### Security
+Please see [CONTRIBUTING](https://github.com/Astrotomic/.github/blob/master/CONTRIBUTING.md) for details. You could also be interested in [CODE OF CONDUCT](https://github.com/Astrotomic/.github/blob/master/CODE_OF_CONDUCT.md).
+### Security
 
 If you discover any security related issues, please email dev@astrotomic.info instead of using the issue tracker.
 
@@ -103,7 +105,8 @@ If you discover any security related issues, please email dev@astrotomic.info in
 
 ## License
 
-The MIT License (MIT). Please see [License File](LICENSE.md) for more information.## Treeware
+The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
+## Treeware
 
 You're free to use this package, but if it makes it to your production environment I would highly appreciate you buying the world a tree.
 
