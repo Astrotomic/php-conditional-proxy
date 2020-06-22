@@ -8,8 +8,8 @@
 [![StyleCI](https://styleci.io/repos/271375912/shield)](https://styleci.io/repos/271375912)
 [![Total Downloads](https://img.shields.io/packagist/dt/astrotomic/php-conditional-proxy.svg?label=Downloads&style=flat-square)](https://packagist.org/packages/astrotomic/php-conditional-proxy)
 
-This package provides a trait and class to allow calling methods based on a condition without breaking the method chain. 
-This is useful if you want to call a method only if the variable you insert has a value. 
+This package provides a trait and class to allow calling methods based on a condition without breaking the method chain.
+This is useful if you want to call a method only if the variable you insert has a value.
 
 ## Installation
 
@@ -82,7 +82,7 @@ class MyClass
 
 ## Testing
 
-``` bash
+```bash
 composer test
 ```
 
