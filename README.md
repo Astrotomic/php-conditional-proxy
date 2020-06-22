@@ -8,8 +8,8 @@
 [![StyleCI](https://styleci.io/repos/271375912/shield)](https://styleci.io/repos/271375912)
 [![Total Downloads](https://img.shields.io/packagist/dt/astrotomic/php-conditional-proxy.svg?label=Downloads&style=flat-square)](https://packagist.org/packages/astrotomic/php-conditional-proxy)
 
-This package provides a trait and class to allow calling methods based on a condition without breaking the method chain. 
-This is useful if you want to call a method only if the variable you insert has a value. 
+This package provides a trait and class to allow calling methods based on a condition without breaking the method chain.
+This is useful if you want to call a method only if the variable you insert has a value.
 
 ## Installation
 
@@ -82,7 +82,7 @@ class MyClass
 
 ## Testing
 
-``` bash
+```bash
 composer test
 ```
 
@@ -92,11 +92,11 @@ Please see [CHANGELOG](CHANGELOG.md) for more information what has changed recen
 
 ## Contributing
 
-Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
+Please see [CONTRIBUTING](https://github.com/Astrotomic/.github/blob/master/CONTRIBUTING.md) for details. You could also be interested in [CODE OF CONDUCT](https://github.com/Astrotomic/.github/blob/master/CODE_OF_CONDUCT.md).
 
 ### Security
 
-If you discover any security related issues, please email dev@astrotomic.info instead of using the issue tracker.
+If you discover any security related issues, please check [SECURITY](https://github.com/Astrotomic/.github/blob/master/SECURITY.md) for steps to report it.
 
 ## Credits
 
@@ -115,5 +115,4 @@ It’s now common knowledge that one of the best tools to tackle the climate cri
 
 You can buy trees at [offset.earth/treeware](https://plant.treeware.earth/Astrotomic/php-conditional-proxy)
 
-Read more about Treeware at https://treeware.earth
-
+Read more about Treeware at [treeware.earth](https://treeware.earth)
