@@ -96,7 +96,7 @@ Please see [CONTRIBUTING](https://github.com/Astrotomic/.github/blob/master/CONT
 
 ### Security
 
-If you discover any security related issues, please email dev@astrotomic.info instead of using the issue tracker.
+If you discover any security related issues, please check [SECURITY](https://github.com/Astrotomic/.github/blob/master/SECURITY.md) for steps to report it.
 
 ## Credits
 
