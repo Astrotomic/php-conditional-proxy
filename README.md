@@ -100,8 +100,8 @@ If you discover any security related issues, please check [SECURITY](https://git
 
 ## Credits
 
-- [Tom Witkowski](https://github.com/Gummibeer)
-- [All Contributors](../../contributors)
+-   [Tom Witkowski](https://github.com/Gummibeer)
+-   [All Contributors](../../contributors)
 
 ## License
 
