@@ -19,7 +19,7 @@
         "php": "^7.1"
     },
     "require-dev": {
-        "pestphp/pest": "^0.1.5"
+        "pestphp/pest": "^0.2.2"
     },
     "config": {
         "sort-packages": true
