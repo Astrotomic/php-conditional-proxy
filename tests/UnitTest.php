@@ -1,6 +1,8 @@
 <?php
 
 use Astrotomic\ConditionalProxy\HasConditionalCalls;
+use function PHPUnit\Framework\assertNull;
+use function PHPUnit\Framework\assertSame;
 
 class Proxied
 {
