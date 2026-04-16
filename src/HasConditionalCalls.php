@@ -10,7 +10,7 @@ trait HasConditionalCalls
      * @param mixed $condition
      * @param Closure|null $callback
      *
-     * @return static|ConditionalProxy
+     * @return ($callback is null ? ConditionalProxy : static)
      */
     public function when($condition, ?Closure $callback = null)
     {
